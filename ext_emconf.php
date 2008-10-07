@@ -3,7 +3,7 @@
 ########################################################################
 # Extension Manager/Repository config file for ext: "pedantic"
 #
-# Auto generated 07-10-2008 09:39
+# Auto generated 07-10-2008 14:58
 #
 # Manual updates:
 # Only the data in the array - anything else is removed by next write.
@@ -12,7 +12,7 @@
 
 $EM_CONF[$_EXTKEY] = array(
 	'title' => 'Pedantic',
-	'description' => 'Run select extensions and files in strict mode: Choose whether notices, warnings and/or strict errors should be reported. Obeys devIPmask. This is a developer tool.',
+	'description' => 'Run select extensions and files in strict mode: Choose whether notices, warnings and strict errors should be reported. Obeys devIPmask. This is a developer tool.',
 	'category' => 'misc',
 	'shy' => '',
 	'author' => 'Mikkel Ricky & Kasper Ligaard',
@@ -29,7 +29,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'clearCacheOnLoad' => 0,
 	'lockType' => '',
 	'author_company' => '',
-	'version' => '2.0.2',
+	'version' => '2.0.3',
 	'constraints' => array(
 		'depends' => array(
 			'php' => '5.2.3-0.0.0',
@@ -42,7 +42,7 @@ $EM_CONF[$_EXTKEY] = array(
 			'cc_debug' => '1.0-0.0.0',
 		),
 	),
-	'_md5_values_when_last_written' => 'a:5:{s:10:"README.txt";s:4:"bc97";s:21:"ext_conf_template.txt";s:4:"8a14";s:12:"ext_icon.gif";s:4:"efa9";s:17:"ext_localconf.php";s:4:"4b0d";s:14:"doc/manual.sxw";s:4:"0032";}',
+	'_md5_values_when_last_written' => 'a:5:{s:10:"README.txt";s:4:"bc97";s:21:"ext_conf_template.txt";s:4:"8a14";s:12:"ext_icon.gif";s:4:"efa9";s:17:"ext_localconf.php";s:4:"4b0d";s:14:"doc/manual.sxw";s:4:"1723";}',
 	'suggests' => array(
 	),
 );
