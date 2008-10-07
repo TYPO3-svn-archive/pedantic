@@ -1,0 +1,14 @@
+# cat=pedantic; type=string; label=Extension key list: Comma-separated list of extension keys to complain about
+extKeys = pedantic
+
+# cat=pedantic; type=string; label=Pattern (PCRE) for matching error filename: Reg. exp. example: /class.t3lib_div.php/
+filenamePattern =
+
+# cat=pedantic; type=options[Disabled=disabled,Show inline=inline,Use debug() function=debug,Use t3lib_div::devlog()=devlog]; label=Show E_NOTICE messages
+reportNotice = disabled
+
+# cat=pedantic; type=options[Disabled=disabled,Show inline=inline,Use debug() function=debug,Use t3lib_div::devlog()=devlog]; label=Show E_WARNING messages
+reportWarning = inline
+
+# cat=pedantic; type=options[Disabled=disabled,Show inline=inline,Use debug() function=debug,Use t3lib_div::devlog()=devlog]; label=Show E_STRICT messages
+reportStrict = inline
