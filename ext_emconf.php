@@ -12,7 +12,7 @@
 
 $EM_CONF[$_EXTKEY] = array(
 	'title' => 'Pedantic',
-	'description' => 'Run select extensions in strict mode. Choose whether notices, warnings and/or strict errors should be reported. Obeys devIPmask. This is a developer tool.',
+	'description' => 'Run select extensions and files in strict mode: Choose whether notices, warnings and/or strict errors should be reported. Obeys devIPmask. This is a developer tool.',
 	'category' => 'misc',
 	'shy' => '',
 	'author' => 'Mikkel Ricky & Kasper Ligaard',
