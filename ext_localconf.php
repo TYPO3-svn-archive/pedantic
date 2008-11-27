@@ -1,7 +1,7 @@
 <?php defined ('TYPO3_MODE') || die('Access denied.');
 
 $TYPO3_CONF_VARS['EXTCONF'][$_EXTKEY] = unserialize($_EXTCONF);
-$GLOBALS['TYPO3_CONF_VARS']['EXTCONF'][$_EXTKEY]['extKeys'] = t3lib_div::trimExplode(',', $GLOBALS['TYPO3_CONF_VARS']['EXTCONF'][$_EXTKEY]['extKeys']);
+$GLOBALS['TYPO3_CONF_VARS']['EXTCONF'][$_EXTKEY]['extKeys'] = t3lib_div::trimExplode(',', $GLOBALS['TYPO3_CONF_VARS']['EXTCONF'][$_EXTKEY]['extKeys'], true);
 
 if (!function_exists('pedantic_errorHandler')) {
 	function pedantic_errorHandler($errno, $errstr, $errfile, $errline) {
